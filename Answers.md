@@ -1,7 +1,7 @@
 # Answers
 
 1.  What is React JS and what problems does it try and solve? 
-REACT is a known for UI library, it  It solves the problem of explicitly specifying how to update presentation on change of state. In other approach, this is necessary for efficiency. It also solves the problem of making practical creation of reusable, compassable components.
+REACT is a known for UI library. It solves the problem of explicitly specifying how to update presentation on change of state. In other approach, this is necessary for efficiency. It also solves the problem of making practical creation of reusable, compassable components.
 
 When using React or when state is updated, we separate different UI parts of your app into ‘components’. One component would contain the necessary markup as well as the required JS to make it completely functional— this makes is very modular and reusable in a different places in app or entirely across apps.
 
@@ -15,8 +15,8 @@ A class component is a more advance component that has a constructor, a state, a
 
 
 1.  Describe state.
-State is stored internally in the 	component, and only managed by the 	component itself. When you need to update the state, we provide a new reference for each property in the state. Example.  clicking button, typing some text, pressing some key
-We follow the functional programming paradigm, which state should not be updated directly and .setState() method should be used instead.
+State can be changed. It is stored internally in the component, and only managed by the 	component itself. When you need to update the state, we provide a new reference for each property in the state.Example. clicking button, typing some text, pressing some key
+We follow the functional programming paradigm, which state should not be updated directly and .setState() method should be used instead. 
 
 
 1.  Describe props.
