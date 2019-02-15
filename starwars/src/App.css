@@ -17,9 +17,16 @@
   margin-bottom: 20px;
   background: rgba(250, 131, 40, 0.4);
   font-family: 'Merriweather', serif;
-  font-weight: 300;
+}
 
+.character:hover{
+  border: 3px solid white;
+  background: black;
+  color: goldenrod;
+  transform: scale(1.1);
+}
 
-
+.char-property{
+  font-weight: bold;
 }
 /* write your parent styles in here for your App.js */

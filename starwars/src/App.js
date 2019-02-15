@@ -2,13 +2,16 @@ import React, { Component } from 'react';
 import './App.css';
 
 import CharacterList from './components/CharacterList'
+// import Pagination from './components/Pagination'
 
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      starwarsChars: []    
+      starwarsChars: [],
+      nextPage: '',
+
     };
   }
 
@@ -45,7 +48,7 @@ class App extends Component {
         characters = {this.state.starwarsChars}
       />
 
-      <button id='button'>Test</button>
+      <button id='button'>Next Page</button>
       </div>
 
 
